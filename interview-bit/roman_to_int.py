@@ -17,3 +17,5 @@ for _ in range(len(A)):
     pr=cu
 
 print(ans)
+
+# A,B='PAYPALISHIRINGH',2
