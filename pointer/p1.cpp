@@ -28,9 +28,6 @@ int main(){
 
     cout<<endl;
     cout<<endl;
-    cout<<endl;
-    cout<<endl;
-    cout<<endl;
 
     // incrementing and decrementing the address of a which is present in 'aptr'
     cout<<aptr<<endl;   
@@ -41,5 +38,23 @@ int main(){
     aptr--;
     cout<<aptr<<endl;   
 
-    return 0;
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
+
+    // STRINGS
+
+    char ch='r';
+    char* cptr;
+
+    cptr=&ch;
+
+    cout<<ch<<endl;
+    cout<<cptr<<endl;
+    // cout<<&ch;
+
+    cptr-=1;
+    cout<<cptr;
+
+    return 0;   
 }
